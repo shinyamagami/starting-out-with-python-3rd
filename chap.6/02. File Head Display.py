@@ -15,6 +15,7 @@ def read():
             line = object_file.readline()
             line = line.rstrip('\n')
             count += 1
+    object_file.close()
 def main():
     read()
 

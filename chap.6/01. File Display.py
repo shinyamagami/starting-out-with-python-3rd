@@ -9,4 +9,5 @@ def read_numbers():
         print(line)
         line = file_object.readline().rstrip('\n')
         line = line.rstrip('\n')
+    file_object.close()
 read_numbers()

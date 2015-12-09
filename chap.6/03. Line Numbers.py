@@ -12,4 +12,5 @@ def read():
         line = object_file.readline()
         line = line.rstrip('\n')
         line_number += 1
+    object_file.close()
 read()
